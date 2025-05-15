@@ -1,0 +1,21 @@
+:root{
+    --branco-principal: #ffffff; 
+    --botao-verde: #57ac0c;
+    --cor-e-fundo: #00030c;
+    --cordefundo-texto: #099a0e;
+}
+body{
+    background-color: var(--cor-e-fundo);
+    color: var(--branco-principal);
+}
+.container_principal{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    background-color: #099a0e;
+    border-radius: 50px;
+    size: 50px;
+
+}
